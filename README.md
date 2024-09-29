@@ -1,17 +1,16 @@
-alignmentGO
-
+# alignmentGO 
 - a golang package for phylogenomics
 - **This single application bring together all the functions i coded previously in a single package. By tomorrow, i will compile the final package for the release**
-- All single package will be still available from my github repository and this complete package will be available from GO packages.
-  --https://github.com/codecreatede/golang-reference-alignment-estimate
-  --https://github.com/codecreatede/golang-alignment-block-genotyper-eDNA
-  --https://github.com/codecreatede/goroutines-phylogenomics-filter
-  --https://github.com/codecreatede/golang-alignment-block-getter
-  --https://github.com/codecreatede/go-alignment-estimate
-  --https://github.com/codecreatede/go-phylogenomics-tab
-  --https://github.com/codecreatede/goroutines-alignment-merger
-  --https://github.com/codecreatede/go-alignment-block-estimate
-  --https://github.com/codecreatede/go-alignment-proportion
+- All single package will be still available from my github repository and this complete package will be available from GO packages. 
+  --https://github.com/codecreatede/golang-reference-alignment-estimate \
+  --https://github.com/codecreatede/golang-alignment-block-genotyper-eDNA \
+  --https://github.com/codecreatede/goroutines-phylogenomics-filter \
+  --https://github.com/codecreatede/golang-alignment-block-getter \
+  --https://github.com/codecreatede/go-alignment-estimate \
+  --https://github.com/codecreatede/go-phylogenomics-tab \
+  --https://github.com/codecreatede/goroutines-alignment-merger \
+  --https://github.com/codecreatede/go-alignment-block-estimate \
+  --https://github.com/codecreatede/go-alignment-proportion \
 - it deals with the complete phylogenomics and perfom all the work of the phylogenomics
 - from alignment to the merging, filtering and generating the bootstrap phylogenomes.
   -- filter alignment
@@ -67,5 +66,13 @@ Flags:
   -a, --alignmentfile string   a alignment file (default "align")
   -h, --help                   help for unified
 ```
+=======
+  - filter alignment
+  - removes block of alignment
+  - genomescape alignment merge
+  - serves the alignment to a http server
+  - calculate the identity percentage of the alignment.
+- all the alignment utilites combined with a http server in a single genome scale package.
+>>>>>>> origin/main
 
 Gaurav Sablok
