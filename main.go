@@ -12,6 +12,7 @@ import (
 
 /*
 
+
 Author Gaurav Sablok
 Universitat Potsdam
 Date 2024-9-18
@@ -95,9 +96,9 @@ func init() {
 	estimateCmd.Flags().
 		StringVarP(&alignment, "title", "a", "alignment file", "alignment file for the estimate")
 	conservationCmd.Flags().
-		StringVarP(&alignment, "alignmentfile", "a", "alignment file for the estimation of the conservation scores", "alignment which need to be analyzed")
+		StringVarP(&alignment, "alignmentfile", "a", "alignment file convservation score", "alignment to be analyzed")
 	filterCmd.Flags().
-		StringVarP(&alignment, "alignmentfile", "a", "alignment file for the estimation of the conservation scores", "alignment which need to be analyzed")
+		StringVarP(&alignment, "alignmentfile", "a", "alignment file for filter", "alignment to be filtered")
 	specificCmd.Flags().StringVarP(&alignment, "alignmentfile", "a", "align", "a alignment file")
 	specificCmd.Flags().IntVarP(&start, "startcoordinate", "s", 1, "start of the alignment block")
 	specificCmd.Flags().IntVarP(&end, "endcoordinate", "e", 40, "end of the alignment block")
@@ -114,7 +115,6 @@ func init() {
 	rootCmd.AddCommand(estimateCmd)
 	rootCmd.AddCommand(conservationCmd)
 	rootCmd.AddCommand(filterCmd)
-	rootCmd.AddCommand(siteCmd)
 	rootCmd.AddCommand(specificCmd)
 	rootCmd.AddCommand(proportionCmd)
 	rootCmd.AddCommand(eDNACmd)
