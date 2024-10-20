@@ -1,7 +1,7 @@
 # alignmentGO 
 - a golang package for phylogenomics
 - all the alignment utilites combined with a http server in a single genome scale package.
-- **This single application bring together all the functions i coded previously in a single package. By tomorrow, i will compile the final package for the release**
+- This single application bring together all the functions i coded previously in a single package.
 - All single package will be still available from my github repository and this complete package will be available from GO packages. \
   https://github.com/codecreatede/golang-reference-alignment-estimate \
   https://github.com/codecreatede/golang-alignment-block-genotyper-eDNA \
@@ -33,7 +33,8 @@ Flags:
 
 Use "flags [command] --help" for more information about a command.
 ➜  alignmentGO git:(main) ✗ go run main.go estimate -h
-This estimates the site by site alignment estimates across the alignment and it takes the first genome as a reference for the estimation of the site variablitiy
+This estimates the site by site alignment estimates across the alignment and it takes the first genome 
+as a reference for the estimation of the site variablitiy
 
 Usage:
   flags estimate [flags]
